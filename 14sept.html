@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- function Assignment -->
+    <script>
+        // JavaScript Functions – Assignment
+        // 20 Practice Questions
+        //  A. Simple Functions
+        //  1.⁠ ⁠Create a function ⁠ greet() ⁠ that prints "Hello, Welcome to JavaScript!".
+        // function greet() {
+        //     console.log("Hello, Welcome to JavaScript!");
+
+        // }
+        // greet()
+        // "Hello, Welcome to JavaScript!"
+
+        //  2.⁠ ⁠Create a function ⁠ welcome() ⁠ that prints your name, course, and institute name.
+        //      function welcome() {
+        //      name="amrinder singh"
+        //      course="mern stack developer"
+        //      institutename ="excellence technology"
+        //      console.log(name);
+        //      console.log(course);
+        //      console.log(institutename);   
+        // }
+        // welcome()
+        //name="amrinder singh"
+        // course="mern stack developer"
+        // institutename ="excellence technology" 
+
+        //  5.⁠ ⁠Create a function ⁠ calculate() ⁠ that prints the result of 10 + 20.
+        // function calculate() {
+        //     let a = 10;
+        //     let b = 20;
+        //     sum = a + b
+        //     console.log(sum);
+        // }
+        // calculate()
+        // 30
+
+        //         B. Functions with Parameters&Arguments
+
+        //  6.⁠ ⁠Create a function ⁠ greetUser(name) ⁠ that accepts a name as a parameter and prints a greeting.
+        // function greetUser(name) {
+        //     console.log(name);    
+        // }
+        // greetUser("hello amrinder")
+        // hello amrinder
+
+        //  7.⁠ ⁠Create a function ⁠ add(a, b) ⁠ that accepts two numbers and prints their sum.
+        //    function add(a,b) {
+        //    sum = a+b;
+        //   console.log(sum);
+        //   }
+        //    add(10,20)
+        // 30
+        //  8.⁠ ⁠Create a function ⁠ subtract(a, b) ⁠ that accepts two numbers and returns their difference.
+        // function subtract(a, b) {
+        //     subtract = a - b;
+        //     console.log(subtract);
+
+        // }
+        // subtract(20, 15);
+        // 5
+
+        //  9.⁠ ⁠Create a function ⁠ multiply(a, b) ⁠ that accepts two numbers and prints their multiplication.
+        // function multiply(a, b) {
+        //     multiply = a * b;
+        //     console.log(multiply);
+        // }
+        // multiply(10, 30);
+        // 300
+
+        // 10.⁠ ⁠Create a function ⁠ divide(a, b) ⁠ that accepts two numbers and returns their division.
+        // function divide(a,b) {
+        //     divide=a/b;
+        //     console.log(divide);  
+        // }
+        // divide(20,10);
+        // 2
+
+        // 11.⁠ ⁠Create a function ⁠ square(num) ⁠ that accepts a number and returns its square.
+        // function square(num) {
+        //     b=num*num;
+        //     console.log(b);   
+        // }
+        // square(6)
+        // 36
+
+        // 12.⁠ ⁠Create a function ⁠ checkEvenOdd(num) ⁠ that accepts a number and prints whether it is Even or Odd.
+        // function checkEvenOdd(num) {
+        //     if (num%2==0) {
+        //         console.log("even");
+
+        //     }else{
+        //         console.log("odd");
+
+        //     }    
+        // }
+        // checkEvenOdd(22);
+        // even
+
+        // 13.⁠ ⁠Create a function ⁠ findLargest(a, b) ⁠ that accepts two numbers and prints the larger number.
+        //    function findLargest(a,b) {
+        //     if (a>b) {
+        //         console.log("a"+ a);
+
+        //     } else {
+        //         console.log("b "+ b);
+
+        //     }
+        //    }
+        //    findLargest(10,40)
+        //    b 40
+        // 14.⁠ ⁠Create a function ⁠ student(name, age, course) ⁠ that accepts three arguments and prints the student’s details.
+        //   function student(name,age,course) {
+        //    studentdetail=name+age+course;
+
+        //     console.log(studentdetail); 
+        //   }
+        //   student("amrinder",20,"mernstack");
+        //  amrinder,20,mernstack 
+
+        // 15.⁠ ⁠Create a function ⁠ calculateMarks(m1, m2, m3) ⁠ that accepts marks of three subjects and returns the total marks.
+        //   function calculateMarks(m1,m2,m3) {
+        //      total=m1+m2+m3;
+        //    console.log(total);
+
+        //   }
+        //   calculateMarks(70,55,90);
+        // 215
+
+        //     C. Arrow Functions
+
+        // 16.⁠ ⁠Create an arrow function ⁠ greet ⁠ that prints "Hello JavaScript".
+        // greet = () => {
+        //     name = "hello javascript"
+        //     console.log(name);
+
+        // }
+        // greet()
+        // hello javascript
+
+        // 17.⁠ ⁠Create an arrow function ⁠ add(a, b) ⁠ that returns the sum of two numbers.
+        // add=(a,b)=>{
+        //     sum=a+b;
+        //     console.log(sum);   
+        // }
+        // add(20,33)
+        // 53
+
+        // 18.⁠ ⁠Create an arrow function ⁠ square(num) ⁠ that returns the square of a number.
+        // square=(num)=>{
+        //     b=num*num;
+        //     console.log(b);
+            
+        // }
+        // square(9)
+        // 81
+
+        // 19.⁠ ⁠Create an arrow function ⁠ checkAge(age) ⁠ that checks whether a person is 18 or older and prints "Eligible" or "Not Eligible".
+        // checkage=(age)=>{
+        //     if (age>=18) {
+        //         console.log("eligible");
+                
+        //     } else {
+        //         console.log("not eligible");
+                
+        //     }
+        // }
+        // checkage(33)
+        // eligible
+
+        // 20.⁠ ⁠Create an arrow function ⁠ calculateBill(price, quantity) ⁠ that calculates and returns the total bill.
+        // calculatebill=(price,quantity)=>{
+        //     godrejno1=price*quantity;
+        //     console.log(godrejno1);
+            
+        // }
+        // calculatebill(75,4)
+        // 300
+
+
+
+
+    </script>
+
+</body>
+
+</html>
